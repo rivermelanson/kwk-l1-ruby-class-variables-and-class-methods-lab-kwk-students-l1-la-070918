@@ -1,9 +1,9 @@
 class Songs 
   attr_reader :name, :artist, :album_name, :genre
-  attr_writer
+  attr_writer :name, :artist, :album_name, :genre 
   
   def rock_songs = Songs.new("name", "artist", "album_name", "genre")
-    puts "what artist sings your song?"
+    puts "who sings your song?"
     @name 
     @artist
     @album_name
