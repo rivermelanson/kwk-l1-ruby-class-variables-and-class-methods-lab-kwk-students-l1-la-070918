@@ -3,9 +3,10 @@ class Songs
   attr_writer :name, :artist, :album_name, :genre 
   
   def rock_songs = Songs.new("name", "artist", "album_name", "genre")
-    @name 
-    @artist
-    @album_name
+    @name = name 
+    @artist = artist 
+    @album_name = album_name
+    @genre = genre 
     
   end 
 end 
