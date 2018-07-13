@@ -1,5 +1,5 @@
 class Songs 
-  attr_reader
+  attr_reader :name, :artist, :album_name, :genre
   attr_writer
   
   def rock_songs = Songs.new("name", "artist", "album_name", "genre")
