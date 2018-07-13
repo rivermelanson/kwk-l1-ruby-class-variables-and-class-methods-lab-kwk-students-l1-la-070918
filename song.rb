@@ -20,4 +20,3 @@ piano_man.artist
 all_star.genre 
 radio_ga_ga.album_name
 come_and_get_your_love.name 
-puts Songs.all_songs
