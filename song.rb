@@ -16,7 +16,7 @@ all_star = Songs.new("all star", "smash mouth", "astro lounge", "rock/punk")
 radio_ga_ga = Songs.new("radio ga ga", "queen", "the works", "rock")
 come_and_get_your_love = Songs.new("come and get your love", "redbone", "the essential redbone", "rock/jazz")
 
-piano_man.artist 
-all_star.genre 
-radio_ga_ga.album_name
-come_and_get_your_love.name 
+puts piano_man.artist 
+puts all_star.genre 
+puts radio_ga_ga.album_name
+puts come_and_get_your_love.name 
